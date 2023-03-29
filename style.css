@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#banner {
+    background-image: url("images/Cover.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    font-size: 30px;
+    text-shadow: 2px 2px #000;
+}
+
+#banner p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(160, 160, 160);
+}
+
+
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#features div {
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+#features img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+#features h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#features p {
+    font-size: 18px;
+}
+
+
+#newletter {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+#newletter h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#newletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#newletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+#newletter button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#newletter button:hover {
+    background-color: #f4f4f4;
+}
